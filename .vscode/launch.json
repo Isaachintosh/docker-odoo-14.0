@@ -2,15 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Odoo 14.0",
+            "name": "Odoo 14",
             "type": "python",
             "request": "launch",
             "program": "/usr/bin/odoo",
             "args": [
                 "-c",
-                "/usr/lib/python3/dist-packages/odoo/odoo/odoo-14.0.conf"
+                "/usr/lib/python3/dist-packages/odoo/odoo/odoo-14.0.conf",
+                "--dev",
+                "xml"
             ],
-            "justMyCode": true,
+            "justMyCode": false,
             "console": "integratedTerminal"
         }
     ]
