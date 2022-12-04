@@ -8,9 +8,7 @@
             "program": "/usr/bin/odoo",
             "args": [
                 "-c",
-                "/usr/lib/python3/dist-packages/odoo/odoo/odoo-14.0.conf",
-                "--dev",
-                "xml"
+                "/usr/lib/python3/dist-packages/odoo/odoo/odoo-14.0.conf"
             ],
             "justMyCode": false,
             "console": "integratedTerminal"
