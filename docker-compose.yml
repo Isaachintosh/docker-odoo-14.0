@@ -12,9 +12,12 @@ services:
       - ./odoo_addons:/usr/lib/python3/dist-packages/odoo/extra-addons:cached
       - ./config:/usr/lib/python3/dist-packages/odoo/odoo
       - ./.vscode:/usr/lib/python3/dist-packages/odoo/.vscode
+      - ./custom-install:/usr/lib/python3/dist-packages/odoo/custom-install
   db:
     image: postgres:13
     environment:
       - POSTGRES_USER=odoo
       - POSTGRES_PASSWORD=odoo
       - POSTGRES_DB=postgres
+    volumes:
+      - ./postgresql:/var/lib/postgresql/data

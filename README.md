@@ -76,5 +76,11 @@ You can notice that will appear a floating menu containing some actions, that ar
 
 
 #
-## Restarting the Odoo Server
+## Run the extra-addons installer
+
+Basically this additional step was implemented to provide some automation level for the install of some linux packages and python libraries that are required to use some odoo custom modules.
+
+to run this script, you gonna start the dev container and just type at the bash terminal:
+
+    bash custom-modules-install
 
