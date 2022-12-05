@@ -82,5 +82,8 @@ Basically this additional step was implemented to provide some automation level 
 
 to run this script, you gonna start the dev container and just type at the bash terminal:
 
-    bash custom-modules-install
+    bash custom-install
 
+or
+
+    ./custom-install/custom-install.sh
